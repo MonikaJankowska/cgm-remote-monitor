@@ -26,7 +26,8 @@ class NewCommand extends Command
         $this
             ->setName('new')
             ->setDescription('Create a new Lamapress application')
-            ->addArgument('name', InputArgument::OPTIONAL);
+            ->addArgument('name', InputArgument::OPTIONAL)
+            ->addOption('force', 'f', InputOption::VALUE_NONE, 'Forces install even if the directory already exists');
     }
 
     /**
