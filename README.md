@@ -1,1 +1,1 @@
-# lamapress-installer
+# 🦙🦙 Lamapress global installer
